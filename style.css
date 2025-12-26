@@ -1,0 +1,29 @@
+body {
+    background-color: #16425b !important;
+}
+.container {
+    min-height: 100dvh;
+    background-color: #16425b !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .question-footer {
+        border-top: 1px solid rgba(0,0,0,0.4);
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 12px;
+    }
+    .main-card {
+        width: 28rem;
+        .answerClick{
+            &:hover{
+                cursor: pointer;
+                background-color: rgba(0,0,0,0.09);
+            }
+        }
+    }
+    .bg-success , .bg-danger{
+        color: white;
+    }
+}
